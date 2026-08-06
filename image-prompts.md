@@ -24,6 +24,24 @@ in-frame, no people's faces in close-up (keep it property-focused).
   text or logos."
 - **Alt text:** "drought-tolerant landscaping in a Burbank California backyard"
 
+## 1b. Homepage services grid card thumbnails (6 images)
+
+Each of the 6 service cards on the homepage needs a small 4:3
+thumbnail so the card isn't text-only. These reuse the same source
+photo as that service's own hero photo (see entries 4-9 below),
+just cropped/resized to 4:3 instead of 16:9, no separate prompt
+needed. File paths:
+
+- `images/landscape-design-burbank-ca-card.jpg` (crop of entry 4's hero)
+- `images/drought-tolerant-landscaping-burbank-ca-card.jpg` (crop of entry 5's hero)
+- `images/artificial-turf-burbank-ca-card.jpg` (crop of entry 6's hero)
+- `images/sprinkler-repair-burbank-ca-card.jpg` (crop of entry 7's hero)
+- `images/sod-installation-burbank-ca-card.jpg` (crop of entry 8's hero)
+- `images/lawn-care-maintenance-burbank-ca-card.jpg` (crop of entry 9's hero)
+
+Alt text on each matches that service's hero alt text (see the
+corresponding entry below).
+
 ## 2. Inline supporting photo (homepage, intro column)
 
 - **File path:** `images/drought-tolerant-landscaping-irrigation-burbank-ca.jpg`

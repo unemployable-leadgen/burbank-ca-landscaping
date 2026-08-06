@@ -263,14 +263,38 @@ strong { color: var(--forest-dark); }
   gap: 1.5rem;
 }
 .service-card {
+  display: block;
   background: var(--white);
   border-radius: 10px;
-  padding: 1.5rem;
+  overflow: hidden;
   border-top: 4px solid var(--terracotta);
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
-.service-card h3 a { color: var(--forest-dark); }
-.service-card h3 a:hover { color: var(--terracotta); }
-.service-card p { font-size: 0.95rem; color: #46443c; margin-bottom: 0; }
+.service-card:hover,
+.service-card:focus-visible {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(32, 51, 39, 0.15);
+}
+.service-card:hover h3,
+.service-card:focus-visible h3 { color: var(--terracotta); }
+.service-card-image {
+  aspect-ratio: 4 / 3;
+  background: repeating-linear-gradient(45deg, #ddd6c4, #ddd6c4 14px, #d2c9ae 14px, #d2c9ae 28px);
+  display: flex;
+  align-items: flex-end;
+  padding: 0.6rem;
+}
+.service-card-image .placeholder-caption { font-size: 0.65rem; font-style: italic; color: #5a5648; }
+.service-card-body { padding: 1.5rem; }
+.service-card h3 { color: var(--forest-dark); transition: color 0.15s ease; }
+.service-card p { font-size: 0.95rem; color: #46443c; margin-bottom: 1rem; }
+.service-card-cta {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--terracotta-dark);
+}
 
 /* ===== Trust Section ===== */
 .trust-section { padding: 3rem 1.5rem; }
