@@ -60,6 +60,10 @@ strong { color: var(--forest-dark); }
   font-weight: 700;
   color: var(--forest-dark);
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+  flex-shrink: 1;
 }
 .main-nav { display: flex; gap: 1.5rem; margin-left: auto; }
 .main-nav a { font-weight: 600; color: var(--text-dark); }

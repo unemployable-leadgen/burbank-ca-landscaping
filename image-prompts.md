@@ -51,7 +51,7 @@ in-frame, no people's faces in close-up (keep it property-focused).
 
 - **Hero file path:** `images/landscape-design-burbank-ca-hero.jpg` (1920x1080, 16:9)
 - **Hero prompt:** "Photorealistic wide-angle photo of a newly installed residential landscape design: mixed planting beds, a stone or paver pathway, defined lawn edge, single-family home with stucco exterior in the background. Southern California suburb, natural daylight, no people, no readable text or logos."
-- **Hero alt text:** "newly designed and installed landscaping in a Burbank California front yard"
+- **Hero alt text:** "landscape design and installation project in a Burbank California front yard"
 - **Inline file path:** `images/landscape-design-plan-burbank-ca.jpg` (900x1200, 3:4 portrait)
 - **Inline prompt:** "Photorealistic photo of a hand-drawn or printed landscape design plan held or laid over a view of the actual yard it corresponds to, showing the transition from plan to real planting. Natural daylight, no people's faces, no readable text beyond generic plan lines."
 - **Inline alt text:** "landscape design plan for a Burbank California yard"
@@ -87,7 +87,7 @@ in-frame, no people's faces in close-up (keep it property-focused).
 
 - **Hero file path:** `images/sod-installation-burbank-ca-hero.jpg` (1920x1080, 16:9)
 - **Hero prompt:** "Photorealistic wide-angle photo of a freshly installed, evenly green sod lawn in a residential front yard, visible seam lines, single-family home in background. Natural daylight, no people, no readable text or logos."
-- **Hero alt text:** "freshly installed sod lawn in a Burbank California yard"
+- **Hero alt text:** "freshly completed sod installation in a Burbank California yard"
 - **Inline file path:** `images/sod-seams-burbank-ca.jpg` (900x1200, 3:4 portrait)
 - **Inline prompt:** "Photorealistic close-up photo of freshly laid sod rolls with tight, brick-pattern seams, showing installation detail. Natural daylight, no people, no readable text."
 - **Inline alt text:** "close-up of new sod seams in a Burbank California lawn installation"
