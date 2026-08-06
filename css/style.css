@@ -225,6 +225,29 @@ strong { color: var(--forest-dark); }
 .form-submit-btn:hover { background: var(--forest-dark); }
 .form-status { font-size: 0.85rem; margin-top: 0.6rem; }
 
+/* ===== Service Detail Page Sections ===== */
+.service-content { padding: 3rem 1.5rem; }
+.service-content.bg-sand { background: var(--sand-dark); }
+.service-content-inner { max-width: 800px; margin: 0 auto; }
+.service-content-inner h2 { color: var(--forest-dark); }
+.service-content-inner ul { list-style: disc; padding-left: 1.4rem; margin-bottom: 1rem; }
+.service-content-inner li { margin-bottom: 0.5rem; }
+.service-content-inner p { font-size: 1.02rem; }
+
+.faq-section { padding: 3rem 1.5rem; }
+.faq-inner { max-width: 800px; margin: 0 auto; }
+.faq-inner h2 { color: var(--forest-dark); margin-bottom: 1.5rem; }
+.faq-item { margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--sand-dark); }
+.faq-item:last-child { border-bottom: none; }
+.faq-item h3 { color: var(--terracotta-dark); }
+.faq-item p { margin-bottom: 0; }
+
+.final-cta { background: var(--forest-dark); color: var(--white); text-align: center; padding: 3.5rem 1.5rem; }
+.final-cta h2 { color: var(--white); }
+.final-cta p { color: #e4e0d2; max-width: 600px; margin: 0 auto 1.5rem; }
+.final-cta .cta-button { background: var(--terracotta); }
+.final-cta .hero-phone-btn { border-color: var(--white); }
+
 /* ===== Services Section ===== */
 .services-section { padding: 3rem 1.5rem; background: var(--sand-dark); }
 .services-section h2 { max-width: 1200px; margin: 0 auto 1.5rem; }
