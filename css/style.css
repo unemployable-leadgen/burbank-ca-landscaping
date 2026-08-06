@@ -118,6 +118,13 @@ strong { color: var(--forest-dark); }
   font-style: italic;
   max-width: 320px;
 }
+.hero-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .hero-overlay {
   position: absolute;
   inset: 0;
@@ -187,6 +194,13 @@ strong { color: var(--forest-dark); }
   display: flex;
   align-items: center;
   padding: 0.75rem;
+}
+img.inline-photo-float {
+  background: none;
+  border: 2px solid var(--terracotta);
+  padding: 0;
+  object-fit: cover;
+  border-radius: 4px;
 }
 .inline-photo-float .placeholder-caption {
   font-size: 0.7rem;
@@ -279,6 +293,11 @@ strong { color: var(--forest-dark); }
 }
 .service-card:hover h3,
 .service-card:focus-visible h3 { color: var(--terracotta); }
+img.service-card-image {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
 .service-card-image {
   aspect-ratio: 4 / 3;
   background: repeating-linear-gradient(45deg, #ddd6c4, #ddd6c4 14px, #d2c9ae 14px, #d2c9ae 28px);

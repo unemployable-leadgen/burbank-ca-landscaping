@@ -1,0 +1,6 @@
+# Raw AI-generated source images (42MB+ of full-res PNGs).
+# Optimized/resized JPEGs actually used by the site live in images/.
+# Kept locally for reference/regeneration only, not deployed, not tracked.
+/originals/
+
+.DS_Store

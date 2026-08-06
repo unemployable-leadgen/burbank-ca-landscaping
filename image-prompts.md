@@ -1,20 +1,28 @@
 # Image Prompts
 
-Placeholder blocks are used on the site until real photography is
-generated and dropped in. Each entry below lists the file path the
-site expects, target dimensions, an AI image-generation prompt, and
-the alt text to pair with the photo once it replaces the placeholder.
+**Status: fulfilled.** All 21 images below are live in `images/` as
+optimized JPEGs (heroes resized to 1600x900, inline/detail shots to
+700x933, service card thumbnails cropped to 600x450), wired into
+their pages as real `<img>` tags. The prompts and alt text are kept
+here as documentation and in case any single image needs
+regenerating later. The original full-resolution AI generations are
+preserved in `/originals/` (git-ignored, not deployed) if you want to
+recrop or re-export any of them differently.
 
-Style guardrails for every prompt: photorealistic, natural daylight,
-generic "trusted local contractor" look, no readable text or logos
-in-frame, no people's faces in close-up (keep it property-focused).
+Each entry below lists the file path the site expects, target
+dimensions, an AI image-generation prompt, and the alt text used.
+
+Style guardrails used for every prompt: photorealistic, natural
+daylight, generic "trusted local contractor" look, no readable text
+or logos in-frame, no people's faces in close-up (keep it
+property-focused).
 
 ---
 
 ## 1. Hero photo (homepage)
 
 - **File path:** `images/landscaping-burbank-ca-hero.jpg`
-- **Target dimensions:** 1920x1080 (16:9, full-bleed banner)
+- **Target dimensions:** 1600x900 (16:9, full-bleed banner)
 - **Prompt:** "Photorealistic wide-angle photo of a freshly landscaped
   backyard in a Southern California suburb. Drought-tolerant
   landscaping: native grasses, gray-green succulents, decomposed
@@ -45,7 +53,7 @@ corresponding entry below).
 ## 2. Inline supporting photo (homepage, intro column)
 
 - **File path:** `images/drought-tolerant-landscaping-irrigation-burbank-ca.jpg`
-- **Target dimensions:** 900x1200 (3:4 portrait)
+- **Target dimensions:** 700x933 (3:4 portrait)
 - **Prompt:** "Photorealistic close-up photo of a black drip irrigation
   line running through a mulched garden bed next to drought-tolerant
   plants (agave, lavender, ornamental grasses). Shallow depth of
@@ -67,55 +75,55 @@ corresponding entry below).
 
 ## 4. Landscape Design & Installation (service page)
 
-- **Hero file path:** `images/landscape-design-burbank-ca-hero.jpg` (1920x1080, 16:9)
+- **Hero file path:** `images/landscape-design-burbank-ca-hero.jpg` (1600x900, 16:9)
 - **Hero prompt:** "Photorealistic wide-angle photo of a newly installed residential landscape design: mixed planting beds, a stone or paver pathway, defined lawn edge, single-family home with stucco exterior in the background. Southern California suburb, natural daylight, no people, no readable text or logos."
 - **Hero alt text:** "landscape design and installation project in a Burbank California front yard"
-- **Inline file path:** `images/landscape-design-plan-burbank-ca.jpg` (900x1200, 3:4 portrait)
+- **Inline file path:** `images/landscape-design-plan-burbank-ca.jpg` (700x933, 3:4 portrait)
 - **Inline prompt:** "Photorealistic photo of a hand-drawn or printed landscape design plan held or laid over a view of the actual yard it corresponds to, showing the transition from plan to real planting. Natural daylight, no people's faces, no readable text beyond generic plan lines."
 - **Inline alt text:** "landscape design plan for a Burbank California yard"
 
 ## 5. Drought-Tolerant Landscaping & Turf Removal (service page)
 
-- **Hero file path:** `images/drought-tolerant-landscaping-burbank-ca-hero.jpg` (1920x1080, 16:9)
+- **Hero file path:** `images/drought-tolerant-landscaping-burbank-ca-hero.jpg` (1600x900, 16:9)
 - **Hero prompt:** "Photorealistic wide-angle photo of a drought-tolerant front yard: native grasses, gray-green succulents, decomposed granite groundcover, a few Mediterranean-style shrubs. Southern California suburb, single-family home in background, clear sky, no people, no readable text or logos."
 - **Hero alt text:** "drought-tolerant landscaping with native plants in a Burbank California yard"
-- **Inline file path:** `images/drought-tolerant-landscaping-plants-burbank-ca.jpg` (900x1200, 3:4 portrait)
+- **Inline file path:** `images/drought-tolerant-landscaping-plants-burbank-ca.jpg` (700x933, 3:4 portrait)
 - **Inline prompt:** "Photorealistic close-up photo of native and Mediterranean drought-tolerant plants (agave, lavender, ornamental grasses) in a mulched bed. Shallow depth of field, natural daylight, no people, no readable text."
 - **Inline alt text:** "close-up of native drought-tolerant plants in a Burbank landscaping project"
 
 ## 6. Artificial Turf Installation (service page)
 
-- **Hero file path:** `images/artificial-turf-burbank-ca-hero.jpg` (1920x1080, 16:9)
+- **Hero file path:** `images/artificial-turf-burbank-ca-hero.jpg` (1600x900, 16:9)
 - **Hero prompt:** "Photorealistic wide-angle photo of a freshly installed artificial turf lawn in a backyard, clean seams, realistic green blades, single-family home visible in background. Natural daylight, no people, no readable text or logos."
 - **Hero alt text:** "artificial turf installation in a Burbank California backyard"
-- **Inline file path:** `images/artificial-turf-closeup-burbank-ca.jpg` (900x1200, 3:4 portrait)
+- **Inline file path:** `images/artificial-turf-closeup-burbank-ca.jpg` (700x933, 3:4 portrait)
 - **Inline prompt:** "Photorealistic close-up photo of realistic artificial turf blades and infill, showing texture and seam detail. Natural daylight, no people, no readable text."
 - **Inline alt text:** "close-up of pet-friendly artificial turf blades installed in Burbank California"
 
 ## 7. Sprinkler & Irrigation Repair (service page)
 
-- **Hero file path:** `images/sprinkler-repair-burbank-ca-hero.jpg` (1920x1080, 16:9)
+- **Hero file path:** `images/sprinkler-repair-burbank-ca-hero.jpg` (1600x900, 16:9)
 - **Hero prompt:** "Photorealistic wide-angle photo of a technician kneeling in a residential lawn repairing a sprinkler head, tools nearby, single-family home in background. Natural daylight, face not prominently visible, no readable text or logos."
 - **Hero alt text:** "sprinkler and irrigation repair technician working in a Burbank California yard"
-- **Inline file path:** `images/irrigation-controller-burbank-ca.jpg` (900x1200, 3:4 portrait)
+- **Inline file path:** `images/irrigation-controller-burbank-ca.jpg` (700x933, 3:4 portrait)
 - **Inline prompt:** "Photorealistic photo of a modern smart irrigation controller mounted on an exterior stucco wall near a garden hose bib. Natural daylight, no people, no readable text on the controller display beyond generic icons."
 - **Inline alt text:** "smart irrigation controller installed on an exterior wall in Burbank California"
 
 ## 8. Sod Installation (service page)
 
-- **Hero file path:** `images/sod-installation-burbank-ca-hero.jpg` (1920x1080, 16:9)
+- **Hero file path:** `images/sod-installation-burbank-ca-hero.jpg` (1600x900, 16:9)
 - **Hero prompt:** "Photorealistic wide-angle photo of a freshly installed, evenly green sod lawn in a residential front yard, visible seam lines, single-family home in background. Natural daylight, no people, no readable text or logos."
 - **Hero alt text:** "freshly completed sod installation in a Burbank California yard"
-- **Inline file path:** `images/sod-seams-burbank-ca.jpg` (900x1200, 3:4 portrait)
+- **Inline file path:** `images/sod-seams-burbank-ca.jpg` (700x933, 3:4 portrait)
 - **Inline prompt:** "Photorealistic close-up photo of freshly laid sod rolls with tight, brick-pattern seams, showing installation detail. Natural daylight, no people, no readable text."
 - **Inline alt text:** "close-up of new sod seams in a Burbank California lawn installation"
 
 ## 9. Lawn Care & Maintenance (service page)
 
-- **Hero file path:** `images/lawn-care-maintenance-burbank-ca-hero.jpg` (1920x1080, 16:9)
+- **Hero file path:** `images/lawn-care-maintenance-burbank-ca-hero.jpg` (1600x900, 16:9)
 - **Hero prompt:** "Photorealistic wide-angle photo of a landscaping crew member mowing a well-kept residential lawn, single-family home in background. Natural daylight, face not prominently visible, no readable text or logos."
 - **Hero alt text:** "lawn care and maintenance crew mowing a yard in Burbank California"
-- **Inline file path:** `images/lawn-edging-burbank-ca.jpg` (900x1200, 3:4 portrait)
+- **Inline file path:** `images/lawn-edging-burbank-ca.jpg` (700x933, 3:4 portrait)
 - **Inline prompt:** "Photorealistic close-up photo of a crew member's hands and edging tool creating a clean line along a lawn edge next to a walkway. Natural daylight, no readable text."
 - **Inline alt text:** "crew member edging a lawn along a walkway in Burbank California"
 
