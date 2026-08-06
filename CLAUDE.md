@@ -85,8 +85,14 @@ delivery, not just a mental check.
 
 ## Current placeholders (flag until replaced)
 - Phone number: (847) 242-8940 (placeholder, same as other rented sites)
-- Domain: burbanklandscaping.com (placeholder, city+niche.com pattern)
-- Formspree form action: YOUR_FORM_ID (placeholder, real endpoint to
-  follow once the site is planned)
-- Photos: placeholder blocks only, with image-prompts.md documenting an
-  AI generation prompt, target dimensions, and alt text per placeholder
+
+## Resolved (no longer placeholders)
+- Domain: burbanklandscaping.net (confirmed real, registered by the
+  user; burbanklandscaping.com and landscapingburbank.com were both
+  taken, so the site uses the .net fallback per project-instructions.md)
+- Formspree form action: wired to the user's real form
+  (https://formspree.io/f/xyegzzad)
+- Photos: real AI-generated photography in place across all 7 pages,
+  optimized and resized. Prompts/alt text/dimensions documented in
+  image-prompts.md for reference. Raw full-resolution originals kept
+  locally in /originals/ (git-ignored, not deployed)

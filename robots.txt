@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://burbanklandscaping.com/sitemap.xml
+Sitemap: https://burbanklandscaping.net/sitemap.xml
