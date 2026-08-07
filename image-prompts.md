@@ -60,16 +60,23 @@ corresponding entry below).
   field, natural daylight, no people, no readable text or logos."
 - **Alt text:** "drip irrigation line in a drought-tolerant landscaping project in Burbank California"
 
-## 3. Open Graph / social share image (homepage)
+## 3. Open Graph / social share images (one per page, 7 total)
 
-- **File path:** `images/landscaping-burbank-ca-og.jpg`
-- **Target dimensions:** 1200x630
-- **Prompt:** Can reuse a cropped/resized version of the hero photo
-  (`landscaping-burbank-ca-hero.jpg`) once generated, framed to keep the
-  landscaped yard centered at this wider aspect ratio. If generating
-  separately: same prompt as the hero photo above, composed for a
-  1200x630 crop.
-- **Alt text:** N/A (social preview image, no alt attribute needed)
+Every page gets its own og:image/twitter:image rather than sharing
+one generic image, so a link shared from the sod page shows sod, not
+the homepage backyard. Each is a 1200x630 center-crop of that page's
+own hero photo (crop to 1600x840 first to hit the right aspect ratio,
+then resize to 1200x630), no separate prompt/generation needed.
+
+- `images/landscaping-burbank-ca-og.jpg` (homepage, crop of entry 1's hero)
+- `images/landscape-design-burbank-ca-og.jpg` (crop of entry 4's hero)
+- `images/drought-tolerant-landscaping-burbank-ca-og.jpg` (crop of entry 5's hero)
+- `images/artificial-turf-burbank-ca-og.jpg` (crop of entry 6's hero)
+- `images/sprinkler-repair-burbank-ca-og.jpg` (crop of entry 7's hero)
+- `images/sod-installation-burbank-ca-og.jpg` (crop of entry 8's hero)
+- `images/lawn-care-maintenance-burbank-ca-og.jpg` (crop of entry 9's hero)
+
+Alt text: N/A for all (social preview images, no alt attribute needed).
 
 ---
 
