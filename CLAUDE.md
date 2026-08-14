@@ -84,7 +84,7 @@ delivery, not just a mental check.
 - End every page with a clear call to action.
 
 ## Current placeholders (flag until replaced)
-- Phone number: (847) 242-8940 (placeholder, same as other rented sites)
+- Phone number: (857) 371-3693 (placeholder, same as other rented sites)
 
 ## Resolved (no longer placeholders)
 - Domain: burbanklandscaping.net (confirmed real, registered by the
