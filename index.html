@@ -92,7 +92,7 @@
         <div class="form-column">
           <div class="quote-form-card">
             <div class="quote-form-banner">GET A FREE QUOTE</div>
-            <form id="quote-form" action="https://formspree.io/f/xyegzzad" method="POST">
+            <form id="quote-form" action="https://unemployable-leadgen-form-handler.davideforestali.workers.dev/submit" method="POST">
               <label for="name">Name</label>
               <input type="text" id="name" name="name" required>
 
@@ -116,6 +116,10 @@
               <label for="message">Message</label>
               <textarea id="message" name="message" rows="3"></textarea>
 
+              <div style="position:absolute;left:-9999px;top:-9999px" aria-hidden="true">
+                <label for="_gotcha">Leave this field empty</label>
+                <input type="text" id="_gotcha" name="_gotcha" tabindex="-1" autocomplete="off">
+              </div>
               <button type="submit" class="form-submit-btn">Get My Free Quote</button>
               <p class="form-status" id="form-status" aria-live="polite"></p>
             </form>
