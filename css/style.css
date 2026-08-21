@@ -409,3 +409,10 @@ img.service-card-image {
   border-top: 1px solid var(--sand-dark);
   gap: 0.75rem;
 }
+
+.logo img {
+  background: var(--sand);
+  border-radius: 8px;
+  padding: 4px;
+  flex-shrink: 0;
+}
