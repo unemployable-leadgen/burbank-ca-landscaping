@@ -56,6 +56,9 @@ strong { color: var(--forest-dark); }
   gap: 1.5rem;
 }
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-size: 1.3rem;
   font-weight: 700;
   color: var(--forest-dark);
