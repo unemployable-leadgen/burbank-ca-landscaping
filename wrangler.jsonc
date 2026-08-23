@@ -1,0 +1,21 @@
+{
+  "name": "burbank-ca-landscaping",
+  "compatibility_date": "2026-08-21",
+  "assets": {
+    "directory": "./",
+    "not_found_handling": "404-page",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "main": "worker.js",
+  "routes": [
+    {
+      "pattern": "burbanklandscaping.net",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.burbanklandscaping.net",
+      "custom_domain": true
+    }
+  ]
+}
