@@ -12,13 +12,15 @@ visitors into calls.
   only.
 - Keep pages fast and lightweight (small images, minimal JS). Page
   speed is an SEO factor.
-- Deployed on Cloudflare (Workers static assets) later; keep output as
-  plain static files.
+- Deployed on Cloudflare (Workers static assets), live at
+  burbanklandscaping.net; keep output as plain static files.
 
-## The rules live in ./shared-rules (git submodule — DO NOT edit here)
+## The rules live in ./shared-rules (symlink to the canonical clone — DO NOT edit here)
 All writing, SEO, and structure rules are in the `shared-rules/`
-submodule. Read them before writing anything. They are the source of
-truth:
+directory, a symlink to `../unemployable-leadgen-shared-rules` shared
+across every site on this machine (no longer a git submodule — there's
+nothing to bump, the symlink always points at the current content).
+Read them before writing anything. They are the source of truth:
 - `shared-rules/project-instructions.md` — the master rules (limits,
   style, banned phrases, banned punctuation, SEO). Numbers live here.
 - `shared-rules/content-writing-rules.md` — HOW to write pages.
@@ -29,7 +31,7 @@ truth:
   validation.
 - `shared-rules/niche-city-criteria.md` — niche/city selection
   criteria.
-- `shared-rules/new-site-setup.md` — repo/submodule/CLAUDE.md setup
+- `shared-rules/new-site-setup.md` — repo/symlink/CLAUDE.md setup
   for a brand-new site.
 
 If a rule and this file ever disagree on a NUMBER,
@@ -90,9 +92,16 @@ delivery, not just a mental check.
 - Domain: burbanklandscaping.net (confirmed real, registered by the
   user; burbanklandscaping.com and landscapingburbank.com were both
   taken, so the site uses the .net fallback per project-instructions.md)
-- Formspree form action: wired to the user's real form
-  (https://formspree.io/f/xyegzzad)
+- Form backend: migrated off Formspree (now banned project-wide, see
+  form-backend-setup.md) to the shared form-handler Worker
+  (https://unemployable-leadgen-form-handler.davideforestali.workers.dev/submit),
+  with the honeypot field on every page's form and this site
+  registered in that Worker's config
 - Photos: real AI-generated photography in place across all 7 pages,
   optimized and resized. Prompts/alt text/dimensions documented in
   image-prompts.md for reference. Raw full-resolution originals kept
   locally in /originals/ (git-ignored, not deployed)
+- Logo: real logo image in place (images/burbank-landscaping-co-logo.png),
+  used in the header on every page
+- LocalBusiness JSON-LD: present on all 7 pages (HomeAndConstructionBusiness,
+  name/telephone/address/areaServed matching the footer's service-area list)

@@ -3,4 +3,7 @@
 # Kept locally for reference/regeneration only, not deployed, not tracked.
 /originals/
 
+# Local Wrangler CLI cache/state, not part of the site.
+/.wrangler/
+
 .DS_Store
